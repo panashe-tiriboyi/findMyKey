@@ -2,20 +2,15 @@ import pyrebase
 import serial
 import pynmea2
 
-firebaseConfig={"apiKey": "xxxx",
+firebaseConfig={
+"apiKey": "AIzaSyAjIHDM9LAPrUgHtzr0z5aGTCDOHRVXDu4",
+ "authDomain": "findmykey-70c77.firebaseapp.com",
+ "databaseURL": "https://findmykey-70c77-default-rtdb.firebaseio.com",
+ "projectId": "findmykey-70c77",
+ "storageBucket": "findmykey-70c77.appspot.com",
+ "messagingSenderId": "202383497778",
+ "appId": "1:202383497778:web:aae3125af933726419ba2b"
 
-    "authDomain": "xxxx",
-
-    "projectId": "xxxx",
-
-    "storageBucket": "xxxx",
-
-    "messagingSenderId": "xxxx",
-
-    "appId": "xxxx",
-
-    "measurementId": "xxxx",
-    "databaseURL": "xxxx"
     }
 
 firebase=pyrebase.initialize_app(firebaseConfig)
